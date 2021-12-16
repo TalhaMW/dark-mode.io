@@ -9,7 +9,7 @@ btn.addEventListener('click',()=>{
         modeProps("href","sass/dark-mode.css",true,"fas fa-moon","Dark Mode","dark-mode-img/img-")
 
     }else if(darkMode===true){
-        modeProps("href","sass/index.css",false,"fas fa-sun","Light Mode","/light-mode-img/img-")
+        modeProps("href","sass/index.css",false,"fas fa-sun","Light Mode","light-mode-img/img-")
     }
 })
 
