@@ -26,7 +26,7 @@ nav {
   position: fixed;
   top: 0;
   z-index: 10;
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,7 +67,7 @@ nav .main-menu li {
 nav .main-menu li a {
   text-decoration: none;
   padding: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -144,7 +144,7 @@ nav .dark-mode-menu li i {
 }
 
 .header-showcase h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   padding-bottom: 1.5rem;
 }
 
@@ -197,8 +197,8 @@ nav .dark-mode-menu li i {
   border: 2px solid white;
   -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  width: 320px;
-  height: 380px;
+  width: 22rem;
+  height: 24rem;
 }
 
 .about-section .content .my-abilities-boxes .ability-box h2 {
@@ -206,8 +206,9 @@ nav .dark-mode-menu li i {
 }
 
 .about-section .content .my-abilities-boxes .ability-box img {
-  width: 280px;
-  height: 250px;
+  width: 100%;
+  height: 16rem;
+  margin-top: 1rem;
 }
 
 .projects-section {
@@ -250,7 +251,7 @@ nav .dark-mode-menu li i {
 }
 
 .projects-section .projects-section-container .buttons-container {
-  padding: 1.4rem 0;
+  padding: 1.4rem 1.2rem;
 }
 
 .projects-section .projects-section-container .buttons-container .project-btn {
@@ -277,9 +278,9 @@ nav .dark-mode-menu li i {
 .projects-section .projects-section-container .projects-text-box {
   font-size: 0.8rem;
   background-color: darkgray;
-  width: 35rem;
   margin-top: 1rem;
-  padding: 1.5rem;
+  padding: 1.8rem 2rem;
+  width: 85%;
   border-radius: 0.5rem;
   line-height: 1.3rem;
   background-color: rgba(255, 255, 255, 0.3);

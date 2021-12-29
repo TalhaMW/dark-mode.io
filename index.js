@@ -6,10 +6,12 @@ let img = document.querySelectorAll('img')
 let darkMode = false;
 btn.addEventListener('click',()=>{
     if(darkMode===false){ 
-        modeProps("href","sass/dark-mode.css",true,"fas fa-moon","Dark Mode","dark-mode-img/img-")
+        btn.textContent="Light Mode"
+        modeProps("href","sass/dark-mode.css",true,"fas fa-moon","Light Mode","dark-mode-img/img-")
 
     }else if(darkMode===true){
-        modeProps("href","sass/index.css",false,"fas fa-sun","Light Mode","./light-mode-img/img-")
+        btn.textContent="Dark Mode"
+        modeProps("href","sass/index.css",false,"fas fa-sun","Dark Mode","./light-mode-img/img-")
     }
 })
 

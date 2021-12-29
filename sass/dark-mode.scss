@@ -31,7 +31,7 @@ nav{
     position: fixed;
     top: 0;
     z-index: 10;
-    width: 100vw;
+    width: 100%;
     @include flex-styling(row,space-between,center);
     background-color: $nav-bar-clr;
    
@@ -43,7 +43,7 @@ nav{
             a{
                 text-decoration: none;
                 padding: 1rem;
-                font-size: 1.6rem;
+                font-size: 1.2rem;
                 color: $text-color;
                 &:hover{
                     color:$hover-clr;
@@ -88,7 +88,7 @@ nav{
     @include flex-styling(column,center,center);
     height: 100vh;
     h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
         padding-bottom: 1.5rem;
     }
     h2{
@@ -116,15 +116,15 @@ nav{
                padding: 1.5rem;
                border: 2px solid $text-color;
                @include box-shadow();
-               width: 320px;
-               height: 380px;
+               width: 22rem;
+               height: 24rem;
                h2{
                    font-size: 2rem;
                }
                img{
-                width: 280px;
-                height: 250px;
-                
+                width: 100%;
+                height: 16rem;
+                margin-top: 1rem;
                  
                }
            }
@@ -148,7 +148,7 @@ nav{
         }
         .buttons-container{
             // background-color: darkblue;
-            padding: 1.4rem 0;
+            padding: 1.4rem 1.2rem;
             .project-btn{
                 background-color: $bg-clr;
                 color: $text-color;
@@ -168,9 +168,9 @@ nav{
         .projects-text-box{
             font-size: 0.8rem;
             background-color: darkgray;
-            width: 35rem;
             margin-top: 1rem;
-            padding: 1.5rem;
+            padding: 1.8rem 2rem;
+            width: 85%;
             border-radius: 0.5rem;
             line-height: 1.3rem;
             background-color:$opacity-clr;
